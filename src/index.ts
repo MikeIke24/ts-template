@@ -1,3 +1,3 @@
 require("./main.scss");
-
-document.getElementById('main').innerText = 'Hello World';
+let msg = require("./contents");
+document.getElementById('main').innerText = msg;
