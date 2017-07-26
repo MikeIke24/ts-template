@@ -8,7 +8,7 @@ Run `npm install` then `npm run build` then `npm run dev`
 
 A development server should open at http://localhost:8080/
 
-To stop the server just run CTRL+c and hit Y then enter ini the command line.
+To stop the server just run CTRL+c and hit Y then enter in the command line.
 
 ### Changing Code
 
