@@ -1,6 +1,10 @@
+// Importing main scss file so webpack can compile the styles
 require("./main.scss");
+// Adding jquery
 const $ = require("jquery");
+// Importing external files
 let msg = require("./contents");
+/*---------------------*/
 
 document.getElementById('main').innerText = msg;
 $('#main').append('<div>jQuery works</div>');
@@ -16,6 +20,7 @@ function numberCalc(val:number){
 }
 
 console.log(numberCalc(2));
+$('#main').append(`<div>${numberCalc(2)}</div>`);
 //console.log(numberCalc('2'));
 
 // You can try and add more stuff here, play around with it.
